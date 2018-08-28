@@ -5,23 +5,24 @@
 
 int main(void)
 {
-    srand(time(NULL));
+    srand(time(NULL));  //not a useful line for this funciton
     int random;
     while(true){
-    scanf("%d", &random);
-    if( random == 10){
-        printf("A-");
+        printf("enter grade here:");
+        scanf("%d", &random);
+        if( random == 10){
+            printf("A-\n");
+        }
+        else if(random>= 90){
+            printf("B\n");
+        }
+        else if(random >=80){
+            printf("c\n");
+        }
+        else{
+            printf("f\n");
+        }
     }
-    else if(random>= 90){
-        printf("B");
-    }
-    else if(random >=80){
-        printf("c");
-    }
-    else{
-        printf("c");
-    }
-    }
-    printf("%x\n", &random);
+    printf("%d\n", random);
     return 0;
 }

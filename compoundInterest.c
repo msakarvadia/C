@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main(void){
-    double principle = 1000, rate = .05, amount;
+    double principle = 1000, rate = .05;
     printf("%4s %21s\n", "year", "amount on deposit");
     for (unsigned char year =1; year <=10; ++year){
         double amount = principle*pow(1+rate,year);

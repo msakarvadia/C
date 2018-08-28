@@ -9,11 +9,14 @@ int main()
     {
         array[i] = rand()%100 +1;
     }
+    printf("unsorted list:\n");
     for(int i = 0; i < size; i++)
     {
         printf("%d, ", array[i]);
     }
-    printf("/n");
+                                 
+    printf("\n");
+
     for(int i = 0; i < size; i++)
     {
         for(int j=0; j< size-1; j++)
@@ -22,10 +25,12 @@ int main()
             {
                 int swap = array[j];
                 array[j] = array[j+1];
-                array[j+1] = array[swap];
+                array[j+1] = swap;
             }
         }
     }
+
+    printf("sorted list:\n");
     for(int i = 0; i < size; i++)
     {
         printf("%d, ", array[i]);

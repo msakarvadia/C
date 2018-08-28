@@ -10,7 +10,7 @@ int main(void){
     printf("%d\n", a);
     c = square(a);
     printf("%d\n", c);
-    printf("%u\n", factorial(1));
+    printf("%u\n", factorial(3));
     return 0;
 }
 
@@ -23,4 +23,4 @@ unsigned int factorial(unsigned int n){
         return 1;
     return n*factorial(n-1);
 }
-
+ 

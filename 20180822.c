@@ -29,10 +29,10 @@ int main(void){
     unsigned int ternary = 5>4? 35:99;
     int x = 5<4? 3: 3<5? 1:2;
     printf("%d %d\n", ternary, x);
-    Char grade;
+    char grade;
     unsigned int acount=0, bcount=0, ccount=0, dcount=0, fcount=0;
     while ((grade = getchar())!= EOF){
-        switch (garde){
+        switch (grade){
             case 'A':
             case 'a':
                 ++acount;
@@ -49,7 +49,7 @@ int main(void){
             case 'f':
                 ++fcount;
                 break;
-            case '\n';
+            case '\n':
                 break;
             default:
                 puts("enter a working grade");

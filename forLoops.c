@@ -7,8 +7,8 @@ int main(Void){
     }
     printf("%u\n", counter);
     for(;;)
-        printf("%u\n", counter++)
-    printf("%u\n", counter);
+        printf("%u\n", counter++);
+    printf("%u\n", counter);    //this is a useless line because the prvious loop is infinite and will ultimately need to be interupted with crtl c
     
     return 0;
 }
