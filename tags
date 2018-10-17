@@ -1,0 +1,194 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ArrayList	arrayList.c	/^    }ArrayList;$/;"	t	typeref:struct:arrayList	file:
+CARDS	shuffle.c	6;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -Wextra -std=gnu99  -lm$/;"	m
+CONTINUE	20180826.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+CONTINUE	craps.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+Card	shuffle.c	/^    } Card;$/;"	t	typeref:struct:card	file:
+Card	struct.c	/^    } Card;$/;"	t	typeref:struct:card	file:
+Example	mallocIntro.c	/^    }Example;$/;"	t	typeref:struct:example	file:
+ExamplePtr	mallocIntro.c	/^typedef Example* ExamplePtr;$/;"	t	file:
+FACES	shuffle.c	7;"	d	file:
+INIT_CAPACITY	arrayList.c	6;"	d	file:
+INIT_SIZE	arrayList.c	7;"	d	file:
+ITER	craps.c	5;"	d	file:
+LOST	20180826.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+LOST	craps.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+LPlusLenCount	craps.c	/^float LPlusLenCount = 0;$/;"	v
+LPlusLenLossCount	craps.c	/^float LPlusLenLossCount = 0;$/;"	v
+ListNode	linkedList.c	/^    }ListNode;$/;"	t	typeref:struct:listNode	file:
+ListNodePtr	linkedList.c	/^typedef ListNode* ListNodePtr;$/;"	t	file:
+MAX	selectionSort.c	7;"	d	file:
+Name	labPrac.c	/^    } Name;$/;"	t	typeref:struct:name	file:
+Name	newLabPrac.c	/^    }Name;$/;"	t	typeref:struct:name	file:
+Node	queue.c	/^    }Node;$/;"	t	typeref:struct:node	file:
+ONE	Aug28.c	/^enum Test {ONE, TWO, THREE};$/;"	e	enum:Test	file:
+Queue	queue.c	/^    }Queue;$/;"	t	typeref:struct:queue	file:
+RANGE	funcObjectPtr.c	8;"	d	file:
+ROLLS	rollDice.c	6;"	d	file:
+SIZE	binarySearch.c	4;"	d	file:
+SIZE	funcObjectPtr.c	7;"	d	file:
+SIZE	newAug29.c	5;"	d	file:
+SIZE	pracLabPrac.c	7;"	d	file:
+SIZE	rollDice.c	5;"	d	file:
+SIZE	selectionSort.c	6;"	d	file:
+Status	20180826.c	/^enum Status {LOST, CONTINUE, WON};$/;"	g	file:
+Status	craps.c	/^enum Status {LOST, CONTINUE, WON};$/;"	g	file:
+THREE	Aug28.c	/^enum Test {ONE, TWO, THREE};$/;"	e	enum:Test	file:
+TWO	Aug28.c	/^enum Test {ONE, TWO, THREE};$/;"	e	enum:Test	file:
+Test	Aug28.c	/^enum Test {ONE, TWO, THREE};$/;"	g	file:
+VIto10LenCount	craps.c	/^float VIto10LenCount = 0;$/;"	v
+VIto10LenLossCount	craps.c	/^float VIto10LenLossCount = 0;$/;"	v
+WON	20180826.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+WON	craps.c	/^enum Status {LOST, CONTINUE, WON};$/;"	e	enum:Status	file:
+XIto20LenCount	craps.c	/^float XIto20LenCount = 0;$/;"	v
+XIto20LenLossCount	craps.c	/^float XIto20LenLossCount = 0;$/;"	v
+XXIto50LenCount	craps.c	/^float XXIto50LenCount = 0;$/;"	v
+XXIto50LenLossCount	craps.c	/^float XXIto50LenLossCount = 0;$/;"	v
+Zeroto5LenCount	craps.c	/^float Zeroto5LenCount = 0;$/;"	v
+Zeroto5LenLossCount	craps.c	/^float Zeroto5LenLossCount = 0;$/;"	v
+_dict	selectionSort.c	/^struct _dict{$/;"	s	file:
+arr	binarySearch.c	/^int arr[SIZE];$/;"	v
+arr	selectionSort.c	/^int arr[SIZE];$/;"	v
+arrayList	arrayList.c	/^typedef struct arrayList {$/;"	s	file:
+ascending	funcObjectPtr.c	/^bool ascending(int a, int b){$/;"	f
+baseChecker	pracLabPrac.c	/^int baseChecker(char* string){$/;"	f
+binarySearch	binarySearch.c	/^int binarySearch(int arr[], size_t start, size_t end, int key){$/;"	f
+bubbled	funcObjectPtr.c	/^void bubbled(int arr[], size_t size, bool (*compare)(int a, int b)){$/;"	f
+c	mallocIntro.c	/^    char c;$/;"	m	struct:example	file:
+caesar	pracLabPrac.c	/^char* caesar(char* cipher, int shift){$/;"	f
+capacity	arrayList.c	/^    size_t capacity;$/;"	m	struct:arrayList	file:
+card	shuffle.c	/^typedef struct card{$/;"	s	file:
+card	struct.c	/^typedef struct card {$/;"	s	file:
+clearList	linkedList.c	/^void clearList(ListNodePtr* listPtr){$/;"	f
+coin	pracLabPrac.c	/^void coin(unsigned int flips){$/;"	f
+count	20180828.c	/^unsigned int count = 10;$/;"	v
+count	selectionSort.c	/^    int count;$/;"	m	struct:_dict	file:
+cubeByReference	pointer.c	/^void cubeByReference(int *xptr){$/;"	f
+cubeByValue	pointer.c	/^int cubeByValue(int x){$/;"	f
+data	arrayList.c	/^    int* data;$/;"	m	struct:arrayList	file:
+datum	linkedList.c	/^    char datum;$/;"	m	struct:listNode	file:
+datum	queue.c	/^    char datum;$/;"	m	struct:node	file:
+deal	shuffle.c	/^void deal(const Card * const deck){$/;"	f
+delete	linkedList.c	/^void delete(ListNodePtr *listPtr, char value){ \/\/deletes a node in a list$/;"	f
+descending	funcObjectPtr.c	/^bool descending(int a, int b){$/;"	f
+dice	pracLabPrac.c	/^int dice(unsigned int dice){ $/;"	f
+doubler	labPrac.c	/^int doubler(int x){$/;"	f
+example	mallocIntro.c	/^typedef struct example{$/;"	s	file:
+f	labPrac.c	/^    const char* f;$/;"	m	struct:name	file:
+face	shuffle.c	/^    const char* face;$/;"	m	struct:card	file:
+face	struct.c	/^    char *face;$/;"	m	struct:card	file:
+factorial	20180823.c	/^unsigned int factorial(unsigned int n){$/;"	f
+favNum	20180823.c	2;"	d	file:
+fillArray	binarySearch.c	/^void fillArray(int arr[], size_t size){$/;"	f
+fillArray	selectionSort.c	/^void fillArray(int arr[], size_t size){$/;"	f
+fillDeck	shuffle.c	/^void fillDeck(Card deck[], const char* faces[], const char* suits[]){$/;"	f
+first	newLabPrac.c	/^    char* first;$/;"	m	struct:name	file:
+first	pp.c	/^int first(int x){$/;"	f
+fullName	labPrac.c	/^    Name *fullName;$/;"	v
+fun	20180828.c	/^void fun(void){$/;"	f
+fun	mallocIntro.c	/^ExamplePtr fun(char c){$/;"	f
+fun1	pracLabPrac.c	/^int fun1(int n){$/;"	f
+fun2	pracLabPrac.c	/^int fun2(int n){$/;"	f
+fun3	pracLabPrac.c	/^ int fun3(char* input){$/;"	f
+gameLengthCounter	craps.c	/^float gameLengthCounter;$/;"	v
+get	linkedList.c	/^char get(ListNodePtr list, size_t index){ \/\/this needs to be fixed$/;"	f
+haed	queue.c	/^    Node* haed;$/;"	m	struct:queue	file:
+insert	linkedList.c	/^void insert(ListNodePtr *listPtr, char value){$/;"	f
+isEmpty	linkedList.c	/^bool isEmpty(ListNodePtr list){ \/\/this needs to be fixed$/;"	f
+l	labPrac.c	/^    const char* l;$/;"	m	struct:name	file:
+last	newLabPrac.c	/^    char* last;$/;"	m	struct:name	file:
+lengthSum	craps.c	/^float lengthSum = 0;$/;"	v
+listNode	linkedList.c	/^typedef struct listNode{$/;"	s	file:
+lostCounter	craps.c	/^int lostCounter = 0;$/;"	v
+m	labPrac.c	/^    const char* m;$/;"	m	struct:name	file:
+main	20180822.c	/^int main(void){$/;"	f
+main	20180823.c	/^int main(void){$/;"	f
+main	20180826.c	/^int main(void){$/;"	f
+main	20180828.c	/^int main(void){$/;"	f
+main	Aug28.c	/^int main(void){$/;"	f
+main	Aug29.c	/^int main(void){$/;"	f
+main	Aug30.c	/^int main(void){$/;"	f
+main	Hello.c	/^int main(void)$/;"	f
+main	HelloWorld.c	/^int main()$/;"	f
+main	Sept12.c	/^int main(void){$/;"	f
+main	arrayList.c	/^int main(void){$/;"	f
+main	binarySearch.c	/^int main(void){$/;"	f
+main	bubble.c	/^int main()$/;"	f
+main	compoundInterest.c	/^int main(void){$/;"	f
+main	craps.c	/^int main(void){$/;"	f
+main	forLoops.c	/^int main(Void){$/;"	f
+main	funcObjectPtr.c	/^int main(void){$/;"	f
+main	incrementCheck.c	/^int main(void){$/;"	f
+main	labPrac.c	/^int main(void){$/;"	f
+main	linkedList.c	/^int main(void){$/;"	f
+main	mallocIntro.c	/^int main(void){$/;"	f
+main	multiDimArray.c	/^int main(void){$/;"	f
+main	newAug29.c	/^int main(void){$/;"	f
+main	newLabPrac.c	/^int main(void){$/;"	f
+main	orTest.c	/^int main(void){$/;"	f
+main	pointer.c	/^int main(void){$/;"	f
+main	pp.c	/^int main(void){$/;"	f
+main	pracLabPrac.c	/^int main(void){$/;"	f
+main	pracRecur.c	/^int main(void){$/;"	f
+main	ptrArray.c	/^int main(void){$/;"	f
+main	queue.c	/^int main(void){$/;"	f
+main	randPrac.c	/^int main(void){$/;"	f
+main	rollDice.c	/^int main(void){$/;"	f
+main	selectionSort.c	/^int main(void){$/;"	f
+main	shuffle.c	/^int main(void){$/;"	f
+main	standardCfile.c	/^int main(void){$/;"	f
+main	struct.c	/^int main(void){$/;"	f
+main	temp.c	/^int main(void){$/;"	f
+main	zero.c	/^int main(void) {return 0;}$/;"	f
+mean	selectionSort.c	/^void mean(int arr[], size_t size){$/;"	f
+median	selectionSort.c	/^void median(int arr[], size_t size){$/;"	f
+middle	newLabPrac.c	/^    char* middle;$/;"	m	struct:name	file:
+mode	selectionSort.c	/^void mode(int arr[], size_t size){$/;"	f
+mode_dict	selectionSort.c	/^struct _dict mode_dict[SIZE];$/;"	v	typeref:struct:_dict
+name	labPrac.c	/^ typedef struct name{$/;"	s	file:
+name	newLabPrac.c	/^typedef struct name{$/;"	s	file:
+nameStr	newLabPrac.c	/^char* nameStr(Name* namePtr){$/;"	f
+namer	labPrac.c	/^Name* namer(char* first, char* middle, char* last){$/;"	f
+namer	newLabPrac.c	/^Name* namer(char* f, char* m, char* l){$/;"	f
+next	linkedList.c	/^    struct listNode* next;$/;"	m	struct:listNode	typeref:struct:listNode::listNode	file:
+next	queue.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	queue.c	/^typedef struct node{$/;"	s	file:
+number	selectionSort.c	/^    int number;$/;"	m	struct:_dict	file:
+palindrome	pracLabPrac.c	/^int palindrome(char* string){$/;"	f
+print	linkedList.c	/^void print(ListNodePtr list){$/;"	f
+print	pracRecur.c	/^void print(int n){$/;"	f
+printArray	funcObjectPtr.c	/^void printArray(int arr[], size_t i){$/;"	f
+printArray	selectionSort.c	/^void printArray(int arr[], size_t size){$/;"	f
+printDimension	Aug30.c	/^void printDimension(int arr[]){$/;"	f
+printMulti	multiDimArray.c	/^void printMulti(int arr[][3]){$/;"	f
+queue	queue.c	/^typedef struct queue{$/;"	s	file:
+result	pracLabPrac.c	/^char* result;$/;"	v
+rollDice	20180826.c	/^unsigned char rollDice(void){$/;"	f
+rollDice	craps.c	/^unsigned char rollDice(void){$/;"	f
+second	pp.c	/^int second(int x){$/;"	f
+selectionSort	selectionSort.c	/^void selectionSort(int arr[], size_t size){$/;"	f
+setCount	selectionSort.c	/^int setCount(int num, int count){$/;"	f
+shuffle	shuffle.c	/^void shuffle(Card* const deck){$/;"	f
+size	arrayList.c	/^    size_t size;$/;"	m	struct:arrayList	file:
+square	20180823.c	/^int square(int y){$/;"	f
+square	labPrac.c	/^int square(int x){$/;"	f
+square	newLabPrac.c	/^int square(int n){$/;"	f
+starPrint	labPrac.c	/^ void starPrint(int n){$/;"	f
+starPrint	randPrac.c	/^void starPrint(int n){$/;"	f
+stars	newLabPrac.c	/^void stars(unsigned int num){$/;"	f
+startEndCheck	pracLabPrac.c	/^bool startEndCheck(char* string, int s, int e){$/;"	f
+strSort	newLabPrac.c	/^void strSort(char* arr[],size_t size){$/;"	f
+suit	shuffle.c	/^    const char* suit;$/;"	m	struct:card	file:
+sum	labPrac.c	/^ int sum(int func(int), int n){$/;"	f
+superSum	newLabPrac.c	/^int superSum(int func(int), unsigned int n){$/;"	f
+swap	funcObjectPtr.c	/^void swap(int *a, int *b){$/;"	f
+tail	queue.c	/^    Node* tail;$/;"	m	struct:queue	file:
+testArr	binarySearch.c	/^int testArr[10] = {4, 182, 1094, 582 ,2000, 37, 359, 487, 765,91};$/;"	v
+wonCounter	craps.c	/^int wonCounter = 0;$/;"	v

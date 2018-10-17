@@ -9,6 +9,8 @@ int main(void){
     int *xptr;
     xptr = &x;
     printf("%d\n %p\n", x, xptr );
+    printf("%d\n %p\n", *xptr, &*xptr );
+    printf("%d\n %p\n", &xptr, *&xptr );
     cubeByValue(x);
     printf("%d\n", x);
     cubeByReference(x);
